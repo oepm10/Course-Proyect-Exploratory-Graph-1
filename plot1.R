@@ -17,6 +17,6 @@ b$Sub_metering_1<-replace(as.character(b$Sub_metering_1),as.character(b$Sub_mete
 b$Sub_metering_2<-replace(as.character(b$Sub_metering_2),as.character(b$Sub_metering_2)=="?","0")
 
 #Plot1
-png("plot1.png", width=480, height=480)
+png("Rplot1.png", width=480, height=480)
 hist(as.numeric(b$Global_active_power),col="red",xlab="Global Active Power (Kilowatts)", main="Global Active Power")
 dev.off()
