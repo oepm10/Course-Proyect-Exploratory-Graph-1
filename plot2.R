@@ -1,3 +1,7 @@
+#Library "lubridate" for dates
+install.packages("lubridate")
+library("lubridate")
+
 #Read the table
 a<-read.table("C:/Users/Diego/Documents/household_power_consumption.txt",sep=";",header = TRUE)
 
