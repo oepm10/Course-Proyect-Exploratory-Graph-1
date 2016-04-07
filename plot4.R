@@ -26,7 +26,7 @@ Sub_metering_2 <- as.numeric(subSetData$Sub_metering_2)
 Sub_metering_3 <- as.numeric(subSetData$Sub_metering_3)
 
 #Ploting
-png("plot4.png", width=480, height=480)
+png("Rplot4.png", width=480, height=480)
 
 #Get the size for the plots
 par(mfrow=c(2,2),mar=c(4,4,2,1))
